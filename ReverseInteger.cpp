@@ -1,29 +1,3 @@
-//
-// Created by Caleb Alexander on 10/26/2020.
-//
-/*
-class Solution:
-        def reverse(self, x: int) -> int:
-if x == 0:
-return 0
-negative = False
-if not (x + abs(x)):
-negative = True
-x = str(x)
-if negative:
-strForm = x[1::]
-strForm = strForm[::-1]
-else:
-strForm = x[::-1]
-
-answer = (int(strForm) * -1) if negative else int(strForm)
-
-if abs(answer) > 2**31:
-return 0
-else:
-return answer
-*/
-
 #include <string>
 #include <cmath>
 
